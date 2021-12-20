@@ -1,0 +1,15 @@
+C:\Users\mathe\Documents\C#\Primeiro-Console\bin\Debug\net6.0\Primeiro-Console.exe
+C:\Users\mathe\Documents\C#\Primeiro-Console\bin\Debug\net6.0\Primeiro-Console.deps.json
+C:\Users\mathe\Documents\C#\Primeiro-Console\bin\Debug\net6.0\Primeiro-Console.runtimeconfig.json
+C:\Users\mathe\Documents\C#\Primeiro-Console\bin\Debug\net6.0\Primeiro-Console.dll
+C:\Users\mathe\Documents\C#\Primeiro-Console\bin\Debug\net6.0\ref\Primeiro-Console.dll
+C:\Users\mathe\Documents\C#\Primeiro-Console\bin\Debug\net6.0\Primeiro-Console.pdb
+C:\Users\mathe\Documents\C#\Primeiro-Console\obj\Debug\net6.0\Primeiro-Console.csproj.AssemblyReference.cache
+C:\Users\mathe\Documents\C#\Primeiro-Console\obj\Debug\net6.0\Primeiro-Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mathe\Documents\C#\Primeiro-Console\obj\Debug\net6.0\Primeiro-Console.AssemblyInfoInputs.cache
+C:\Users\mathe\Documents\C#\Primeiro-Console\obj\Debug\net6.0\Primeiro-Console.AssemblyInfo.cs
+C:\Users\mathe\Documents\C#\Primeiro-Console\obj\Debug\net6.0\Primeiro-Console.csproj.CoreCompileInputs.cache
+C:\Users\mathe\Documents\C#\Primeiro-Console\obj\Debug\net6.0\Primeiro-Console.dll
+C:\Users\mathe\Documents\C#\Primeiro-Console\obj\Debug\net6.0\ref\Primeiro-Console.dll
+C:\Users\mathe\Documents\C#\Primeiro-Console\obj\Debug\net6.0\Primeiro-Console.pdb
+C:\Users\mathe\Documents\C#\Primeiro-Console\obj\Debug\net6.0\Primeiro-Console.genruntimeconfig.cache
