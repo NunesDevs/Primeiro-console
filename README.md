@@ -1,41 +1,31 @@
-# Primeiro-console
+# Primeiro console C#
 
-Primeiro exercício de console C# que usa um laço para imprimir cinco mensagens de boas-vindas.
+Exemplo inicial de laço for com quantidade opcional validada.
 
-## Funcionalidades verificadas
+## Comportamento
 
-- Laço for.
-- Interpolação de strings.
-- Saída no console.
+- Cinco saudações por padrão, preservando o exemplo original.
+- Argumento opcional de 0 a 1000 para explorar o laço.
+- Entrada inválida mostra uso no stderr e retorna código 1.
+- Projeto atualizado para .NET 10 LTS.
 
-## Operação e arquitetura verificadas
+## Executar e validar
 
-Projeto executável .NET 6 com um único Program.cs e top-level statements.
+SDK .NET 10.
 
-Arquivos principais: `Program.cs`, `Primeiro-Console.csproj`.
-
-### Requisitos e execução
-
-SDK compatível com o alvo net6.0.
-
-```text
-dotnet build Primeiro-Console.csproj
-dotnet run --project Primeiro-Console.csproj
+```powershell
+./build.ps1 -Test -Package
+dotnet run --project Primeiro-Console.csproj -- 3
 ```
 
+O script verifica a saída padrão, a quantidade zero e a rejeição de argumento inválido.
 
+## Limites
 
-### Testes e estado
+Exemplo didático intencionalmente pequeno, sem entrada interativa ou persistência.
 
-Não foi identificada uma suíte automatizada específica para os fluxos descritos; valide a execução e os casos de borda antes de publicar.
+## Manutenção e licença
 
-Estado: projeto de estudo/experimental. Deploy ativo não foi confirmado nesta revisão.
+Código autoral licenciado sob a [MIT](LICENSE). Dependências, ferramentas e materiais de terceiros mantêm suas próprias licenças e avisos.
 
-### Limitações conhecidas
-
-- SDK .NET não disponível para executar o projeto durante a auditoria.
-- Sem testes automatizados no repositório.
-
-### Licença e manutenção
-
-Nenhum arquivo de licença foi identificado nesta revisão; não foi adicionada uma nova licença. Atualize comandos e limitações quando houver mudança de comportamento.
+Decisões e continuidade: [PROJECT_MEMORY.md](PROJECT_MEMORY.md).
