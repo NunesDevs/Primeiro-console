@@ -42,3 +42,9 @@ Pacotes Release omitem símbolos de depuração e mapeiam caminhos de origem em 
 ## Evidência da revisão
 
 Build .NET 10 e publish win-x64 aprovados; cinco saudações por padrão e código 1 para argumento inválido. Executável autossuficiente iniciado e encerrado corretamente.
+
+## CI — 2026-11-08
+
+O workflow `.github/workflows/ci.yml` valida a stack e os testes reais deste projeto em push/PR para `master` e por disparo manual. Usa ações oficiais fixadas por SHA, permissão `contents: read` e checkout sem credenciais persistentes. Não faz deploy nem publica pacotes.
+
+A release `v2026.11.8` e seus binários continuam associados ao código `35cd9aed386d3ea04eb1914144a5b1dd74f78404`. O commit de workflow/documentação é posterior e não muda os artefatos já compilados. Resultado da execução remota disponível na aba Actions; não confundir configuração do workflow com aprovação de uma execução.
